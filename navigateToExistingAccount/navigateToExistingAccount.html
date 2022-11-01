@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Search Existing Accounts">
+        <lightning-combobox label="Status"
+                            value={value}
+                            placeholder="Select Account"
+                            options={options}
+                            onchange={onChangeHandler}>
+        </lightning-combobox>
+        <p>Selected Value is: {accountRecordId}</p>
+    </lightning-card>
+</template>
