@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Search Existing Contact">
+        <lightning-combobox label="Status"
+                            value={value}
+                            placeholder="Select Contact"
+                            options={options}
+                            onchange={onChangeHandler}>
+        </lightning-combobox>
+        <p>Selected contact id is: {contactRecordId}</p>
+    </lightning-card>
+</template>
